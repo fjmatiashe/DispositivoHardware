@@ -1,0 +1,70 @@
+body {
+    font-size: 100%;
+    margin: 10 auto;
+    background-color: white;
+}
+
+/*header*/
+header nav ul {
+    font-size: 1.5rem;
+    text-align: center;
+    position: absolute;
+    top: 15%;
+    left: 23%;
+}
+
+header nav ul li {
+    display: inline;
+    padding: 2rem;
+
+}
+
+header nav ul li a {
+    color: rgb(58, 137, 94);  
+    text-decoration: none; 
+}
+
+header nav ul li a:hover{
+    background-color: black;
+}
+
+header h1 {
+    font-size: 4.8rem;
+    color: #000000;
+    text-align: center;
+    font-family: 'Courier New';
+}
+
+/*imagenes*/
+img#grande{
+    width: 60%;
+    display:block;
+    margin:auto;
+}
+
+img#gif{
+    width: 35%;
+    height: 35%; 
+    display:block;
+    margin: auto;
+}
+
+/*Texto*/
+h2{
+    text-align: center;
+    color: rgb(58, 137, 94);
+}
+
+p{
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+p#links{
+    text-align: left;
+}
+
+footer{
+    font-size: 70%;
+}
